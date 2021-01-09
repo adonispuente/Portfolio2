@@ -22,7 +22,7 @@ export default function Intro (){
             </div>
             
             <div style={{width:'45%'}}>
-                <img class='testimg' src={labtop}/>
+                <img class='testimg' alt='A labtop by Joshua Reddekopp' src={labtop}/>
             </div>
 
 

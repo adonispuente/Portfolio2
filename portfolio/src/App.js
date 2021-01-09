@@ -1,5 +1,4 @@
-import NavBar from './Porty/NavBar'
-import Intro from './Porty/Intro'
+
 import Header from './Porty/Header'
 
 

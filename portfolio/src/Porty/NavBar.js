@@ -29,7 +29,7 @@ export default function NavBar(){
 
                 <div class ='flex' style={{width:'9%'}}>
                     <a href="https://www.linkedin.com/in/adonis-puente/ ">
-                        <img class='navpic'src ="https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/Linkedin-256.png"/>
+                        <img class='navpic' alt='LinkedIn Logo' src ="https://cdn3.iconfinder.com/data/icons/social-rounded-2/72/Linkedin-256.png"/>
                     {/* <FontAwesomeIcon icon={faLinkedinIn} size="2x" color='#2867B2' > Linkedin</FontAwesomeIcon> */}
                     </a>
                     <a href="https://github.com/adonispuente">
