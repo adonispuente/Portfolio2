@@ -12,7 +12,15 @@
   width: 40%;
 }
 
-h3,
-li {
-  color: black;
+.h3,
+.li {
+  color: #fff;
+  list-style: none;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+}
+
+.navpic {
+  width: 30px;
+  height: 30px;
 }
