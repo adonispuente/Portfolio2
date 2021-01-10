@@ -1,26 +1,30 @@
+body {
+  background-color: #fffafb;
+}
+
 .header {
   background: black;
 }
 
 .Layer {
   margin-left: 100px;
-  background: #fff;
   display: block;
   width: 80%;
   /* width: 345px;
   height: 220px; */
   padding: 10px;
-  border-radius: 2px 2px 2px 2px;
+  /* border-radius: 2px 2px 2px 2px;
   -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; */
   /* border: 1px solid purple; */
 }
 
 .overlap {
-  top: -30px;
+  /* top: -30px; */
   position: relative;
-  margin-top: -50px; /* THIS IS THE ONE I ADDED THAT MADE I GO HIGHER INTO THE ABOUT ME SECTION*/
+  /* background: #eee5e9; */
+  /* margin-top: -50px; THIS IS THE ONE I ADDED THAT MADE I GO HIGHER INTO THE ABOUT ME SECTION */
 }

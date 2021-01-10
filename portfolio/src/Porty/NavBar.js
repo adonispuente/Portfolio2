@@ -12,7 +12,7 @@ export default function NavBar(){
         <title>Adonis Puente's Portfolio</title>
         <section class ='flex NavBar'>
                 <div>
-                    <h3 class='h3'>AP</h3>
+                    <h3 class='h3' id='h3'>AP</h3>
                 </div>
                 
                

@@ -1,15 +1,17 @@
 .AboutMeWrap {
   background: #00bfb2;
-  width: 100%;
+  /* width: 100%; */
   padding: 50px;
+  /* margin: 20px auto; */
 }
 
 .AboutContainer {
-  width: 80%;
+  /* width: 80%; */
   margin: 10px auto;
   padding-bottom: 20px;
   display: flex;
   justify-content: center;
+  flex-direction: row-reverse;
 }
 
 .box1 {
@@ -23,10 +25,12 @@
 
 .Aboutp {
   color: white;
-  font-family: "Oswald", sans-serif;
-  font-size: 17px;
-  margin-top: 20px;
-  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: right;
+  line-height: 22px;
 }
 
 .box2 {

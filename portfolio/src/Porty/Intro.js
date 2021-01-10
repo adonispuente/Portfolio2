@@ -1,5 +1,10 @@
 import './Intro.css'
 import labtop from '../Pictures/labtop.png'
+import sig from '../Pictures/sig.png'
+import zoom from '../Pictures/zoom.png'
+import styled from 'styled-components';
+
+  
 
 
 export default function Intro (){
@@ -22,7 +27,7 @@ export default function Intro (){
             </div>
             
             <div style={{width:'45%'}}>
-                <img class='testimg' alt='A labtop by Joshua Reddekopp' src={labtop}/>
+                <img class='testimg' alt='A labtop by Joshua Reddekopp' src={zoom}/>
             </div>
 
 
