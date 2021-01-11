@@ -14,7 +14,7 @@ import ss6 from '../Pictures/ss6.png'
 export default function Cards (){
 
     return(
-        <div class='CardWrap'>
+        <div id='Skills'class='CardWrap'>
             <div class='param'>
                         <div>
                             <img class ='frontend' src={frontend}/>

@@ -3,6 +3,7 @@ import labtop from '../Pictures/labtop.png'
 import sig from '../Pictures/sig.png'
 import zoom from '../Pictures/zoom.png'
 import styled from 'styled-components';
+import PDF from '../Pictures/PDF.pdf'
 
   
 
@@ -24,10 +25,18 @@ export default function Intro (){
                     <p class='introp'>"The first step is you have to say that you can"</p>
                     <p class='introp'>- Will Smith</p>          
                 </div>
+
+               <div class='buttonFlex' >
+                   <a href={PDF} target="_blank">
+                        <button style={{background:'#00bfb2'}}>Resume</button>
+
+                    </a>
+                    <button >Hire Me</button>
+               </div>
             </div>
             
             <div style={{width:'45%'}}>
-                <img class='testimg' alt='A labtop by Joshua Reddekopp' src={zoom}/>
+                <img class='testimg' alt='A labtop by Joshua Reddekopp' src={labtop}/>
             </div>
 
 

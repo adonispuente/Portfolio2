@@ -1,12 +1,12 @@
 .AboutMeWrap {
   background: #00bfb2;
-  /* width: 100%; */
+  width: 100%;
   padding: 50px;
   /* margin: 20px auto; */
 }
 
 .AboutContainer {
-  /* width: 80%; */
+  width: 80%;
   margin: 10px auto;
   padding-bottom: 20px;
   display: flex;
@@ -36,6 +36,10 @@
 .box2 {
   width: 45%;
   align-items: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   text-align: center;
+}
+
+.sig {
+  width: 100%;
 }

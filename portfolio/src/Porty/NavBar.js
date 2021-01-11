@@ -2,13 +2,14 @@ import React from "react"
 import "./NavBar.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
+import PDF from '../Pictures/PDF.pdf'
 
 
 
 export default function NavBar(){
 
     return(
-        <div style={{background:" #000"}}>
+        <div >
         <title>Adonis Puente's Portfolio</title>
         <section class ='flex NavBar'>
                 <div>
@@ -19,11 +20,13 @@ export default function NavBar(){
 
                 <div class='navWidth'>
                     <ul class='flex '>
+                    <a target="_blank" href={PDF} >
                         <li class='li'>Resume</li>
-                        <li class='li'>About</li>
-                        <li class='li'>Skills</li>
-                        <li class='li'>Projects</li>
-                        <li class='li'>Contact</li>
+                    </a>
+                        <a href='#AboutMe'><li class='li'>About</li></a>
+                        <a href='#Skills'><li class='li'>Skills</li></a>
+                        <a href='#Projects'> <li class='li'>Projects</li> </a>
+                        <li href='#Contact'class='li'>Contact</li>
                     </ul>
                 </div>
 

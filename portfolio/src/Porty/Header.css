@@ -28,3 +28,7 @@ body {
   /* background: #eee5e9; */
   /* margin-top: -50px; THIS IS THE ONE I ADDED THAT MADE I GO HIGHER INTO THE ABOUT ME SECTION */
 }
+
+a {
+  text-decoration: none;
+}

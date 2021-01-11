@@ -5,6 +5,8 @@ import AboutMe from './AboutMe'
 import Cards from './Cards'
 import styled from "styled-components";
 import pattern from '../Pictures/pattern.png'
+import Projects from './Projects'
+
 
 const Background = styled.section`
   background-attachment: fixed;
@@ -29,6 +31,7 @@ export default function Header(){
             <div class='Layer overlap '>
             <Cards />
             </div>
+            <Projects/>
             
                
             

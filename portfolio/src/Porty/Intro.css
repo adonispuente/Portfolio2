@@ -70,6 +70,29 @@ p {
   display: flex;
   width: 80%;
   /* border: 3px solid purple; */
-  margin: 40px auto;
+  margin: 52px auto;
   background: black;
+}
+
+.buttonFlex {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+button {
+  background: #ffa62b;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 18px 35px;
+  width: 220px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  border: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  cursor: pointer;
 }
