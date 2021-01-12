@@ -22,8 +22,8 @@ export default function Intro (){
                 </div>
 
                 <div>
-                    <p class='introp'>"The first step is you have to say that you can"</p>
-                    <p class='introp'>- Will Smith</p>          
+                    <p class='introp'>"The future belongs to those who believe in the beauty of their dreams"</p>
+                    <p class='introp'>- Eleanor Roosevelt</p>          
                 </div>
 
                <div class='buttonFlex' >
