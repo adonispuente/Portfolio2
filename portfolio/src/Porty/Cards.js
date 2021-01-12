@@ -20,31 +20,39 @@ export default function Cards (){
                             <img class ='frontend' src={frontend}/>
                         </div>
                     <h3 class='Cardh3'>Front End</h3>
-                    <ul>
-                        <li class='Cardli'>HTML/CSS/LESS</li>
-                        <li class='Cardli'>REACT</li>
-                        <li class='Cardli'>BOOTSTRAP</li>
-                        <li class='Cardli'>JAVASCRIPT</li>
-                        <li class='Cardli'>REDUX</li>
-                        <li class='Cardli'>CONTEXT API</li>
-                        <li class='Cardli'>STYLED COMPONENTS</li>
-                    </ul>
+                    
+                        <p class='Cardli'>STYLED COMPONENTS</p>
+                        <p class='Cardli'>HTML/CSS/LESS</p>
+                        <p class='Cardli'>CONTEXT API</p>
+                        <p class='Cardli'>JAVASCRIPT</p>
+                        <p class='Cardli'>BOOTSTRAP</p>
+                        <p class='Cardli'>REACT</p>
+                        <p class='Cardli'>REDUX</p>
+                        
+                        
+                    
             </div>
             <div class='param'>
                         <div>
                             <img class ='frontend' src={ss6}/>
                         </div>
                     <h3 class='Cardh3'>Back End</h3>
-                    <ul>
-                        <li class='Cardli'>JAVA</li>
-                        <li class='Cardli'>POSTGRESQL</li>
-                        <li class='Cardli'>POSTMAN</li>
-                        <li class='Cardli'>JACKSON</li>
-                        <li class='Cardli'>OKTA</li>
-                        <li class='Cardli'>SPRING</li>
+                   
+                    <p class='Cardli'>POSTGRESQL</p>
+                        <p class='Cardli'>POSTMAN</p>
+                        <p class='Cardli'>JACKSON</p>
+                        <p class='Cardli'>SPRING</p>
+                        <p class='Cardli'>OKTA</p>
+                        <p class='Cardli'>JAVA</p>
                         
                         
-                    </ul>
+                        
+                        
+                        
+                        
+                        
+                        
+                    
             </div>
             
             

@@ -3,14 +3,16 @@ import Intro from './Intro'
 import './Header.css'
 import AboutMe from './AboutMe'
 import Cards from './Cards'
-import styled from "styled-components";
 import pattern from '../Pictures/pattern.png'
 import Projects from './Projects'
+import ContactMe from './ContactMe'
+import hex from '../Pictures/hex.jpg'
+import styled from "styled-components";
 
 
 const Background = styled.section`
   background-attachment: fixed;
-  background-image: url(${pattern});
+  background-image: url(${hex});
   width: 100%;
   object-fit: cover;
   background-repeat: no-repeat;
@@ -22,20 +24,29 @@ const Background = styled.section`
 export default function Header(){
 
     return(
+        <div>
         <Background >
             <div class='header'>
                 <NavBar/>
                 <Intro/>
-                <AboutMe class='Layer'/>
+                <div style={{width:'100%', background:'#00bfb2'}}>
+            <AboutMe/>
             </div>
-            <div class='Layer overlap '>
+            </div>
+            
+           
+           
+            
             <Cards />
-            </div>
+            
             <Projects/>
+            
             
                
             
 
         </Background>
+        <ContactMe/>
+        </div>
     )
 }

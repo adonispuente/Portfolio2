@@ -1,6 +1,6 @@
 import './AboutMe.css'
 
-import newTW from '../Pictures/newTW.png'
+import newsig from '../Pictures/newsig.png'
 import BW from '../Pictures/BW.svg'
 
 export default function AboutMe (){
@@ -23,7 +23,7 @@ export default function AboutMe (){
                 </div>
 
                 <div class='box2'>
-                    <img class='sig'src={newTW}/>
+                    <img class='sig'src={newsig}/>
                 </div>
                 
             </div>

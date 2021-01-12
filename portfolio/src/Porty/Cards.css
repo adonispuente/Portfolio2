@@ -6,6 +6,8 @@
   justify-content: center;
   justify-content: space-evenly;
   margin-top: -80px;
+  width: 80%;
+  margin: -80px auto;
 }
 
 .param {

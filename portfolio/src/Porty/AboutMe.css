@@ -1,17 +1,27 @@
 .AboutMeWrap {
-  background: #00bfb2;
+  /* background: #00bfb2;
   width: 100%;
   padding: 50px;
-  /* margin: 20px auto; */
+  margin: 20px auto; */
+
+  background: #00bfb2;
+  width: 80%;
+  padding: 50px;
+  margin: 20px auto;
 }
 
 .AboutContainer {
-  width: 80%;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+
+  /* width: 90%;
   margin: 10px auto;
   padding-bottom: 20px;
   display: flex;
-  justify-content: center;
-  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-direction: row-reverse; */
 }
 
 .box1 {
