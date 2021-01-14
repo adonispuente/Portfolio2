@@ -75,6 +75,14 @@ p {
   justify-content: space-between;
 }
 
+@media (max-width: 1100px) {
+  .introflex {
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+}
+
 .buttonFlex {
   display: flex;
   justify-content: space-around;

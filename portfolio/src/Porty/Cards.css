@@ -1,6 +1,6 @@
 .CardWrap {
   /* border: 1px solid red; */
-  height: 700px;
+  height: 750px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

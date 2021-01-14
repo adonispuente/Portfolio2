@@ -4,18 +4,21 @@ import './ContactMe.css'
 import styled from "styled-components";
 import hexa from '../Pictures/hexa.png'
 import dark from '../Pictures/dark.png'
+import Email from '../Pictures/Email.png'
+
 
 
 
 const Background = styled.section`
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-image: url(${dark});
-  width: 100%;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
   background-repeat: no-repeat;
-  overflow-x: hidden;
+  overflow-x: hidden; */
+  width: 100%;
+  background:#fbfbfb;
 `;
 
 export default function ContactMe (){
@@ -53,44 +56,53 @@ export default function ContactMe (){
    
     return(
         <Background class='contactBG '>
+        
 
         <div id='Contact' class='ContactForm'>
-                <h1 class='contactH1'>Contact Me!</h1>
+        <div class='emailPic'>
+            <img src={Email}/>
+        </div>
+                
+            <div class='formWidth'>
 
+                
                 <form >
+                <p class='contactH1'>Contact Me!</p>
                     <div class='partA'>
+                        <p class='contactP'>Name:</p>
                         <input
                             name='Name'
                             onChange={Changing}
                             value={form.Name}
-                            placeholder='Name'
+                            placeholder='NAME'
                             />
+                            <p class='contactP'>Email:</p>
                         <input
                             name='Email'
                             onChange={Changing}
                             value={form.Email}
-                            placeholder='Email'
+                            placeholder='EMAIL'
                             />
                     </div>
                     
                     <div class='partB'>
-
+                        <p class='contactP'>Message:</p>
                         <textarea
                             
                             name="Message"
                             onChange={Changing}
-                            placeholder="Write an email to me here!"
+                            placeholder="EMAIL CONTENT"
                             
                             value={form.Message}
                             style={{height: '200px'}}
                         />
                    
-                   <button   onClick={Submit} > Send Email! </button>
+                   <button style={{background:'#00bfb2'}} onClick={Submit} > Send Email! </button>
                     </div>
                     
                 </form>
 
-
+            </div>
                         
                 
         </div>

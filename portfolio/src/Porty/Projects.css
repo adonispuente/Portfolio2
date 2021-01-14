@@ -8,6 +8,10 @@
   width: 80%;
   margin: 40px auto;
 }
+.ProjectsBG {
+  width: 100%;
+  margin: 170px auto;
+}
 
 span {
   color: #00bfb2;
@@ -15,7 +19,7 @@ span {
 
 .projectFlex {
   display: flex;
-  margin: 50px auto;
+  margin: 100px auto;
   width: 80%;
   justify-content: space-between;
 }

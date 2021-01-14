@@ -16,17 +16,41 @@ button {
 }
 
 .ContactForm {
-  height: 600px;
-  width: 50%;
+  /* height: 850px; */
+  width: 85%;
   display: flex;
-  flex-direction: column;
   margin: auto;
+  justify-content: space-between;
   background: transparent;
   /* border: 1px solid black; */
 }
 
+.emailPic {
+  width: 45%;
+  margin: auto;
+}
+
+@media (max-width: 1280px) {
+  .ContactForm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .emailPic {
+    width: 100%;
+    text-align: center;
+  }
+
+  .formWidth {
+    width: 75% !important;
+  }
+}
+
+.formWidth {
+  width: 45%;
+}
+
 .partA {
-  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -41,9 +65,29 @@ button {
   margin: 30px auto;
 }
 
+.contactP {
+  color: black;
+}
+
 input,
 textarea {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  /* border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 30px;
+  padding: 16px;
+  background-color: #ebecf0;
+  text-shadow: 1px 1px 0 #fff;
+  margin-right: 16px/2;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+  font-family: "Montserrat", sans-serif; */
+
+  border: 2px solid #adb5bd;
   border-radius: 2px;
   background: white;
   padding-left: 5px;
@@ -53,22 +97,25 @@ textarea {
   width: 75%;
   font-size: 12pt;
   line-height: 24pt;
-  font-family: "Spartan";
-  box-shadow: 1px 1px 12px rgb(0, 191, 178);
+  font-family: "Montserrat", sans-serif;
 }
 
-input:focus {
-  color: rgb(255, 166, 43);
+input:focus,
+textarea:focus {
+  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
 }
 
 .contactH1 {
+  text-align: center;
   margin: 30px auto;
-  /* color: #00bfb2; */
-  color: white;
+  color: black;
+  /* color: #babecc; */
   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
 }
 
-/* .contactBG {
-  background: black;
+.contactBG {
   width: 100%;
-} */
+  display: flex;
+  justify-content: space-between;
+}

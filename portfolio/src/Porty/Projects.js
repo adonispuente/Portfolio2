@@ -13,7 +13,7 @@ import plants from '../Pictures/plants.png'
 export default function Projects(){
 
     return(
-        <div id='Projects'style={{width:'100%'}}>
+        <div id='Projects' class='ProjectsBG'>
                         <h1 class='Projecth1'>MY <span> PROJECTS</span> <FontAwesomeIcon icon={faCodeBranch} /> </h1>
 
 
