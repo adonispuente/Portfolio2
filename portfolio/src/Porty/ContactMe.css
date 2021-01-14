@@ -46,6 +46,12 @@ button {
   }
 }
 
+@media (min-width: 1316px) {
+  .ContactForm {
+    height: 800px;
+  }
+}
+
 .formWidth {
   width: 45%;
 }
