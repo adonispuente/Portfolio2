@@ -14,7 +14,7 @@ export default function Intro (){
         <div class='introflex'>
             <div class='grid'>
                 <div>
-                    <p class='introp'>My Name is Adonis Puente</p>
+                    <p class='introp name'>My Name is Adonis Puente</p>
                 </div>
 
                 <div class='typewriter'>
@@ -35,7 +35,7 @@ export default function Intro (){
                </div>
             </div>
             
-            <div style={{width:'45%'}}>
+            <div class='labtop'>
                 <img class='testimg' alt='A labtop by Joshua Reddekopp' src={labtop}/>
             </div>
 

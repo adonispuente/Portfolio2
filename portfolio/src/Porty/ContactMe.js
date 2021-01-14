@@ -60,7 +60,7 @@ export default function ContactMe (){
 
         <div id='Contact' class='ContactForm'>
         <div class='emailPic'>
-            <img src={Email}/>
+            <img class='email' src={Email}/>
         </div>
                 
             <div class='formWidth'>

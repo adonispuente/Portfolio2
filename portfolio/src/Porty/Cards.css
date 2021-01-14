@@ -49,3 +49,14 @@
   text-align: center;
   letter-spacing: 2px;
 }
+
+@media (max-width: 414px) {
+  .CardWrap {
+    margin: -80px 28px;
+  }
+  .param {
+    width: 80%;
+    height: 400px;
+    margin: 10px 28px;
+  }
+}

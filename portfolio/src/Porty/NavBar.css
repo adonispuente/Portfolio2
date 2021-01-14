@@ -19,11 +19,11 @@
   }
 }
 
-/* @media (max-width: 700px) {
+@media (max-width: 414px) {
   .NavBar {
-    position: unset;
+    display: none;
   }
-} */
+}
 
 .navWidth {
   width: 50%;

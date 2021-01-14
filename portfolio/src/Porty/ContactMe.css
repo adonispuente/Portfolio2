@@ -125,3 +125,13 @@ textarea:focus {
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 414px) {
+  .ContactForm {
+    width: 100%;
+  }
+
+  .email {
+    width: 75%;
+  }
+}

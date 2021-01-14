@@ -48,6 +48,7 @@ export default function Projects(){
                                     </a>
                                         
                                 </div>
+                                
                             </div>
                         </div> 
                         <div class='projectFlex'>
@@ -71,6 +72,12 @@ export default function Projects(){
                                         <img class='imgwithin' src='https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-256.png'/>
 
                                     </div>
+                                    <div class='phoneButton' >
+                                    <a href='https://adonis-game-of-life.netlify.app/' target="_blank">
+                                        <button style={{background:'#00bfb2'}}>website</button>
+                                    </a>
+                                        
+                                </div>
                                     
                                 
                             </div> 
@@ -82,6 +89,7 @@ export default function Projects(){
                                     </a>
                                         
                                 </div>
+                                
                             </div>
                             
 
@@ -110,6 +118,12 @@ export default function Projects(){
                                 <img class='imgwithin2' src='https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png'/>
 
                             </div>
+                        <div class='phoneButton' >
+                            <a href='https://getittogether.netlify.app/' target="_blank">
+                                <button >website</button>
+                            </a>
+                                
+                        </div>
                             
                         
                     </div> 
@@ -121,6 +135,7 @@ export default function Projects(){
                             </a>
                                 
                         </div>
+                        
                     </div>
             </div> 
 

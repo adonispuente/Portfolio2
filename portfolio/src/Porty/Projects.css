@@ -102,3 +102,37 @@ button {
   width: 15%;
   border-radius: 50px;
 }
+.phoneButton {
+  display: none;
+}
+
+@media (max-width: 414px) {
+  .ProjectsBG {
+    padding-top: 300px;
+  }
+  .Projecth1 {
+    font-size: 39px;
+  }
+
+  .box4 {
+    display: none;
+  }
+
+  .box3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .projectP {
+    margin: auto;
+    padding-right: 0px;
+  }
+
+  .imgcontainer {
+    justify-content: center;
+    width: 100%;
+  }
+  .phoneButton {
+    display: contents;
+  }
+}

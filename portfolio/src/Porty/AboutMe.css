@@ -56,6 +56,27 @@
   }
 }
 
+@media (max-width: 414px) {
+  .AboutMeWrap {
+    padding: 0px;
+    width: 100%;
+  }
+
+  .AboutContainer {
+    flex-direction: column-reverse;
+  }
+  .box2 {
+    margin: 20px 38px;
+    width: 75%;
+  }
+
+  .box1 {
+    margin: 0 38px;
+    width: 75%;
+    padding-bottom: 50px;
+  }
+}
+
 .sig {
   width: 100%;
 }
