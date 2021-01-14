@@ -4,7 +4,6 @@ import { fal} from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
 import WeightJ from '../Pictures/WeightJ.png'
 import GameOfLife from '../Pictures/GameOfLife.jpg'
-import labtop2 from '../Pictures/labtop2.png'
 import java from '../Pictures/java.png'
 import city from '../Pictures/city.png'
 import plants from '../Pictures/plants.png'
@@ -33,7 +32,7 @@ export default function Projects(){
                                     <p class='projectP'>JAVA | OKTA | SPRINGBOOT</p>
                                     
                                     <div class='imgcontainer'>
-                                        <img class='imgwithin' src={java}/>
+                                        <img class='imgwithin3' src={java}/>
                                         {/* <img class='imgwithin' src={okta}/>
                                         <img class='imgwithin2' src='https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png'/> */}
 
@@ -145,7 +144,7 @@ export default function Projects(){
                                         <h4>Tech Stack</h4>
                                         <p class='projectP'>JAVA | JACKSON | SPRINGBOOT</p>
                                         <div class='imgcontainer'>
-                                            <img class='imgwithin' src={java}/>
+                                            <img class='imgwithin3' src={java}/>
 
                                         </div>
                                         

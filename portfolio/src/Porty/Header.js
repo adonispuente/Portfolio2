@@ -29,7 +29,7 @@ export default function Header(){
             <div class='header'>
                 <NavBar/>
                 <Intro/>
-                <div style={{width:'100%', background:'#00bfb2'}}>
+                <div style={{width:'100%', background:'#00bfb2', paddingBottom:'padding-top: 100px'}}>
             <AboutMe/>
             </div>
             </div>

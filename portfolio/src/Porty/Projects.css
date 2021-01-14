@@ -93,3 +93,8 @@ button {
 .imgwithin2 {
   height: 40px;
 }
+
+.imgwithin3 {
+  width: 15%;
+  border-radius: 50px;
+}

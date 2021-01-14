@@ -12,7 +12,7 @@
 
 .param {
   background: #fff;
-  border: 2px solid #000;
+  border: 2px solid #1a5e63;
   border-radius: 2px;
   padding: 120px 10px 30px;
   width: 45%;
@@ -22,7 +22,11 @@
 }
 
 .frontend {
-  width: 100%;
+  width: 57%;
+  margin-top: -100px;
+}
+.backend {
+  width: 90%;
   margin-top: -100px;
 }
 

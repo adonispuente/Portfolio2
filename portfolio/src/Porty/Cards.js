@@ -1,11 +1,10 @@
 import './Cards.css'
-import frontend from '../Pictures/frontend.png'
-import ss1 from '../Pictures/ss1.png'
-import ss2 from '../Pictures/ss2.png'
-import ss3 from '../Pictures/ss3.png'
-import ss4 from '../Pictures/ss4.png'
-import ss5 from '../Pictures/ss5.png'
+// import frontend from '../Pictures/frontend.png'
 import ss6 from '../Pictures/ss6.png'
+import backend from '../Pictures/backend.png'
+import frontend from '../Pictures/frontend.jpg'
+
+
 
 
 
@@ -34,7 +33,7 @@ export default function Cards (){
             </div>
             <div class='param'>
                         <div>
-                            <img class ='frontend' src={ss6}/>
+                            <img class ='backend' src={backend}/>
                         </div>
                     <h3 class='Cardh3'>Back End</h3>
                    
