@@ -31,7 +31,8 @@ export default function Intro (){
                         <button style={{background:'#00bfb2'}}>Resume</button>
 
                     </a>
-                    <button >Hire Me</button>
+                    <a href='#Contact'><button >Hire Me</button></a>
+                    
                </div>
             </div>
             
