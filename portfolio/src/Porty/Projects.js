@@ -2,8 +2,8 @@ import './Projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fal} from '@fortawesome/free-brands-svg-icons'
 import { faCodeBranch } from '@fortawesome/free-solid-svg-icons'
-import WeightJ from '../Pictures/WeightJ.png'
-import GameOfLife from '../Pictures/GameOfLife.jpg'
+import WJ from '../Pictures/WJ.png'
+import GOF from '../Pictures/GOF.png'
 import java from '../Pictures/java.png'
 import city from '../Pictures/city.png'
 import plants from '../Pictures/plants.png'
@@ -82,7 +82,7 @@ export default function Projects(){
                                 
                             </div> 
                             <div class='box4'>
-                                    <img src={GameOfLife}/>
+                                    <img src={GOF}/>
                                 <div class='buttonFlex' >
                                     <a href='https://adonis-game-of-life.netlify.app/' target="_blank">
                                         <button style={{background:'#00bfb2'}}>website</button>
@@ -128,7 +128,7 @@ export default function Projects(){
                         
                     </div> 
                     <div class='box4'>
-                            <img src={WeightJ}/>
+                            <img src={WJ}/>
                         <div class='buttonFlex' >
                             <a href='https://getittogether.netlify.app/' target="_blank">
                                 <button >website</button>
