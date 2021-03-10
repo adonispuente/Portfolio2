@@ -2,8 +2,8 @@ import emailjs  from 'emailjs-com';
 import React, { useState } from "react";
 import './ContactMe.css'
 import styled from "styled-components";
-import hexa from '../Pictures/hexa.png'
-import dark from '../Pictures/dark.png'
+// import hexa from '../Pictures/hexa.png'
+// import dark from '../Pictures/dark.png'
 import Email from '../Pictures/Email.png'
 
 
@@ -11,7 +11,6 @@ import Email from '../Pictures/Email.png'
 
 const Background = styled.section`
   /* background-attachment: fixed;
-  background-image: url(${dark});
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
