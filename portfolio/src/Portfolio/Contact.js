@@ -13,10 +13,11 @@ export default function Contact(){
     }
 
     const [form,setForm]= useState(initialForm)
+    const [submit,setSubmit] = useState(false)
 
 
     const Changing = (event)=>{
-        // console.log(event.target)
+        console.log(event.target)
         const name = event.target.name;
         const value = event.target.value;
 
@@ -27,6 +28,9 @@ export default function Contact(){
     }
 
     const Submit = (event)=>{
+        event.preventDefault();
+        setSubmit(true);
+        setForm(initialForm)
         const templateId = 'template_9mwiejp';
         // sendFeedback(templateId,{message_html:form.Message})
         emailjs.send('service_o4pr1cj',templateId, form , 'user_oHx1PQWUGY4N5JixTPoth')
@@ -60,6 +64,18 @@ export default function Contact(){
                 
                             <form >
                                 <h1 class='contactH1'>Like what you see? <span> Hire me!</span></h1>
+                                {submit === true? (
+                                                <div >
+                                                    
+                                                    <p class='Email'>Thank you, I will respond within 48 hours!</p>
+
+                                                
+                                                </div>
+
+
+                                                ) : (
+                                                    <div />
+                                                )}
                                     <div class='partA'>
                                         <p class='contactP'>Name:</p>
                                         <input
@@ -93,6 +109,19 @@ export default function Contact(){
 
                         
                             </form>
+
+                            {submit === true? (
+                                                <div >
+                                                    
+                                                    <p class='Email'>Thank you, I will respond within 48 hours!</p>
+
+                                                
+                                                </div>
+
+
+                                                ) : (
+                                                    <div />
+                                                )}
 
                
                         

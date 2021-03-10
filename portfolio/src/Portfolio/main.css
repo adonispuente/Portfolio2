@@ -251,6 +251,11 @@ footer {
   width: 100%;
 }
 
+.Email {
+  font-weight: bold;
+  color: #ff64cb;
+}
+
 @media only screen and (min-width: 800px) {
   .featured,
   .portfolio {
