@@ -71,7 +71,7 @@ export default function Intro(){
     return(
         <div class='hero'>
             <div class='content'>
-                    <h1 class='stagger1' >Weclome to my Portfolio!</h1>
+                    <h1 class='stagger1' >Welcome to my Portfolio!</h1>
                     {/* <img class='stagger1' src={Adonis3}/> */}
                     <div class='meet stagger1'>
                     <span >👇</span>
