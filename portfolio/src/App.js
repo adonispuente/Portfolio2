@@ -7,7 +7,7 @@ import Featured from './Portfolio/Featured'
 import Skills from './Portfolio/Skills'
 import Projects from './Portfolio/Projects'
 import Contact from './Portfolio/Contact'
-import Footer from './Portfolio/Footer'
+import AboutMe from './Portfolio/AboutMe'
 // import ContactMe from './Porty/ContactMe'
 
 function App() {
@@ -20,11 +20,9 @@ function App() {
       <Featured/>
       <Skills/>
       <Projects/>
-      
       <Contact/>
-
-      <Footer/>
-      {/* <ContactMe/> */}
+      <AboutMe/>
+      
 
     </div>
   );

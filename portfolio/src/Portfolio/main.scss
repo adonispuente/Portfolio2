@@ -220,10 +220,18 @@ button {
   }
 }
 
-footer {
+.Container {
+  width: 100%;
+  background-color: #6e00ff;
+}
+
+.AboutMe {
   //   height: 10em;
+  width: 100%;
   background-color: #6e00ff;
   width: 100%;
+  // display: grid;
+  // grid-template-columns: 66% auto;
 }
 
 .Salute {
@@ -365,6 +373,8 @@ footer {
     input,
     textarea {
       opacity: 0.8;
+      padding: 5px;
+      font-family: "Poppins", arial;
     }
     h1 {
       justify-content: center;

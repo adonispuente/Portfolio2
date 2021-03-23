@@ -11,6 +11,7 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "emailjs-com": "^2.6.4",
+    "formik": "^2.2.6",
     "gsap": "^3.6.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
@@ -18,7 +19,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "styled-components": "^5.2.1",
-    "web-vitals": "^0.2.4"
+    "web-vitals": "^0.2.4",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",

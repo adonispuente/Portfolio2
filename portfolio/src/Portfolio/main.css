@@ -236,7 +236,13 @@ button:hover {
   color: #fff;
 }
 
-footer {
+.Container {
+  width: 100%;
+  background-color: #6e00ff;
+}
+
+.AboutMe {
+  width: 100%;
   background-color: #6e00ff;
   width: 100%;
 }
@@ -380,6 +386,8 @@ footer {
   .ContactForm input,
   .ContactForm textarea {
     opacity: 0.8;
+    padding: 5px;
+    font-family: "Poppins", arial;
   }
   .ContactForm h1 {
     -webkit-box-pack: center;

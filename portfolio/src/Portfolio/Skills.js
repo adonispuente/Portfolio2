@@ -49,11 +49,11 @@ export default function Skills(){
                         </div>
                             <p class='skill-title'>Backend Development</p>
                             <ul class='listed'>
-                                <li>POSTGRESQL | JACKSON</li>
-                                <li>TOMCAT | SPRING</li>
-                                <li>POSTMAN</li>
-                                <li>OKTA</li>
-                                <li>JAVA</li>
+                                <li>Postgresql | Jackson</li>
+                                <li>Tomcat | Spring</li>
+                                <li>Postman</li>
+                                <li>Okta</li>
+                                <li>Java</li>
                                 
                             </ul>
                             {/* <p class='featured-desc skill-desc'> POSTGRESQL | POSTMAN | JACKSON </p>
