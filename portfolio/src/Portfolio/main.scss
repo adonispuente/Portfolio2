@@ -2,6 +2,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins", "arial";
+  overflow-x: hidden;
 }
 
 ul {
@@ -18,24 +19,40 @@ img {
 }
 
 .nav-container {
-  background: #6700ee;
+  background: #a5a5a5;
+  height: 100vh;
+  width: 8%;
+  position: fixed;
+  z-index: 20;
 
   a {
     color: white;
   }
 }
 
+#icon {
+  &:hover {
+    color: #5da9e9;
+  }
+}
+
 header {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 2em;
+  padding-top: 2em;
+  text-align: center;
   .logo {
-    color: #00f7ff;
+    color: #fff;
     font-weight: bold;
+    margin-bottom: 2em;
   }
 
   ul {
     display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: space-between;
     a {
       display: block;
       padding: 0 1em;
@@ -54,6 +71,7 @@ header {
   display: grid;
   text-align: center;
   padding: 4em;
+  height: 100vh;
 }
 
 .meet {
@@ -73,6 +91,12 @@ header {
   width: 30px;
   margin-top: 2em;
 }
+
+// .scroll {
+//   width: 35px;
+//   margin-top: 8em;
+//   padding-left: 20em;
+// }
 
 section {
   padding: 4em 2em;
@@ -202,21 +226,19 @@ button {
   font-family: "Montserrat", sans-serif;
   color: #000;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin: 5em 20em;
   padding: 18px 35px;
   width: 220px;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  //   border: none;
-  font-weight: 700;
   letter-spacing: 2px;
   cursor: pointer;
-  border-radius: 10px;
   margin-bottom: 4em;
   &:hover {
-    background: #000;
+    background: #5da9e9;
     color: #fff;
+    border: #fff;
   }
 }
 
@@ -248,6 +270,101 @@ button {
   color: #ff64cb;
 }
 
+// NEW REVAMP CSS --------------------------------------------------------
+
+.Wrap {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.overlay {
+  // z-index: 9;
+  top: 40%;
+  left: 30%;
+}
+
+.text_1 {
+  animation: text1;
+}
+
+.text_2 {
+  animation: text2;
+}
+
+.text_1,
+.text_2 {
+  font-size: 2em;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  animation-duration: 11s;
+  animation-timing-function: steps(25, end);
+  animation-iteration-count: infinite;
+}
+
+.text_1::after,
+.text_2::after {
+  // color: #5da9e9;
+  content: "|";
+  position: absolute;
+  right: 0;
+  animation: caret infinite;
+  animation-duration: 1s;
+  animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+
+  60%,
+  90% {
+    width: 12.5em;
+  }
+}
+
+@keyframes text1 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  10%,
+  40% {
+    width: 11.2em;
+  }
+}
+
+@keyframes caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+// NEW REVAMP CSS ---------------------------------------------------------
+
+.Navflex {
+  display: flex;
+}
 @media only screen and (min-width: 800px) {
   .featured,
   .portfolio {
@@ -306,34 +423,33 @@ button {
     height: 90vh;
   }
 
-  .nav-container {
-    display: grid;
-    grid-template-columns: 66% auto;
-    background: unset;
+  // .nav-container {
+  //   display: grid;
+  //   grid-template-columns: 66% auto;
+  //   background: unset;
 
-    header {
-      background: #6700ee;
-    }
-  }
+  //   header {
+  //     background: #6700ee;
+  //   }
+  // }
 
-  header {
-    padding: 2em 2em 2em 4em;
-  }
-  .social-header {
-    padding: 2em 4em 2em 0;
-  }
+  // header {
+  //   padding: 2em 2em 2em 4em;
+  // }
+
   section {
     padding: 4em;
   }
 
   .social-header {
-    display: block;
+    height: 25vh;
+    margin-top: 8em;
 
     ul {
       display: flex;
-      justify-content: space-between;
-      width: 7em;
-      float: right;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0 auto;
     }
   }
 
@@ -399,10 +515,25 @@ button {
 
 @media only screen and(min-width:1250px) {
   header {
-    padding: 2em 2em 2em 10em;
+    font-weight: bold;
+    .logo {
+      margin-bottom: 8em;
+      font-size: 1.3em;
+    }
+
+    ul {
+      a {
+        padding: unset;
+        color: black;
+      }
+    }
   }
   .social-header {
-    padding: 2em 10em 2em 10em;
+    display: flex;
+
+    ul {
+      flex-direction: column;
+    }
   }
   section {
     padding: 10em 10em 4em 10em;
@@ -410,6 +541,7 @@ button {
 
   .hero .content {
     padding: 6em 8em 6em 10em;
+    height: 100vh;
   }
 
   .Salute {
@@ -437,23 +569,27 @@ button {
 }
 
 @media only screen and(min-width:1550px) {
-  header {
-    padding: 2em 2em 2em 20em;
-  }
-  .social-header {
-    padding: 2em 20em 2em 0em;
-  }
-  section {
-    padding: 6em 20em 4em 20em;
+  // header {
+  //   padding: 2em 2em 2em 20em;
+  // }
+  // .social-header {
+  //   padding: 2em 20em 2em 0em;
+  // }
+  // section {
+  //   padding: 6em 20em 4em 20em;
+  // }
+
+  .hero {
+    background: white;
+
+    .content {
+      color: black;
+    }
   }
 
-  .hero .content {
-    padding: 9em 20em 6em 20em;
-  }
-
-  .hero-design {
-    margin-top: unset;
-  }
+  // .hero-design {
+  //   margin-top: unset;
+  // }
 
   .ContactForm {
     input,

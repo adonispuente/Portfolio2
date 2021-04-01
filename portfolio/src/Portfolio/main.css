@@ -2,6 +2,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Poppins", "arial";
+  overflow-x: hidden;
 }
 
 ul {
@@ -19,32 +20,54 @@ img {
 }
 
 .nav-container {
-  background: #6700ee;
+  background: #a5a5a5;
+  height: 100vh;
+  width: 8%;
+  position: fixed;
+  z-index: 20;
 }
 
 .nav-container a {
   color: white;
 }
 
+#icon:hover {
+  color: #5da9e9;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2em;
+  padding-top: 2em;
+  text-align: center;
 }
 
 header .logo {
-  color: #00f7ff;
+  color: #fff;
   font-weight: bold;
+  margin-bottom: 2em;
 }
 
 header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 30vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 header ul a {
@@ -64,6 +87,7 @@ header ul a {
   display: grid;
   text-align: center;
   padding: 4em;
+  height: 100vh;
 }
 
 .meet {
@@ -218,22 +242,21 @@ button {
   font-family: "Montserrat", sans-serif;
   color: #000;
   text-transform: uppercase;
-  margin-top: 10px;
+  margin: 5em 20em;
   padding: 18px 35px;
   width: 220px;
   font-size: 14px;
   line-height: 20px;
   text-align: center;
-  font-weight: 700;
   letter-spacing: 2px;
   cursor: pointer;
-  border-radius: 10px;
   margin-bottom: 4em;
 }
 
 button:hover {
-  background: #000;
+  background: #5da9e9;
   color: #fff;
+  border: #fff;
 }
 
 .Container {
@@ -260,6 +283,139 @@ button:hover {
 .Email {
   font-weight: bold;
   color: #ff64cb;
+}
+
+.Wrap {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.overlay {
+  top: 40%;
+  left: 30%;
+}
+
+.text_1 {
+  -webkit-animation: text1;
+          animation: text1;
+}
+
+.text_2 {
+  -webkit-animation: text2;
+          animation: text2;
+}
+
+.text_1,
+.text_2 {
+  font-size: 2em;
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  position: relative;
+  -webkit-animation-duration: 11s;
+          animation-duration: 11s;
+  -webkit-animation-timing-function: steps(25, end);
+          animation-timing-function: steps(25, end);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.text_1::after,
+.text_2::after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  -webkit-animation: caret infinite;
+          animation: caret infinite;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: steps(1, end);
+          animation-timing-function: steps(1, end);
+}
+
+@-webkit-keyframes text2 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  60%,
+  90% {
+    width: 12.5em;
+  }
+}
+
+@keyframes text2 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  60%,
+  90% {
+    width: 12.5em;
+  }
+}
+
+@-webkit-keyframes text1 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  10%,
+  40% {
+    width: 11.2em;
+  }
+}
+
+@keyframes text1 {
+  0%,
+  50%,
+  100% {
+    width: 0;
+  }
+  10%,
+  40% {
+    width: 11.2em;
+  }
+}
+
+@-webkit-keyframes caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes caret {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.Navflex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 @media only screen and (min-width: 800px) {
@@ -321,37 +477,24 @@ button:hover {
   .hero {
     height: 90vh;
   }
-  .nav-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 66% auto;
-        grid-template-columns: 66% auto;
-    background: unset;
-  }
-  .nav-container header {
-    background: #6700ee;
-  }
-  header {
-    padding: 2em 2em 2em 4em;
-  }
-  .social-header {
-    padding: 2em 4em 2em 0;
-  }
   section {
     padding: 4em;
   }
   .social-header {
-    display: block;
+    height: 25vh;
+    margin-top: 8em;
   }
   .social-header ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 7em;
-    float: right;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0 auto;
   }
   .hero {
     display: -ms-grid;
@@ -416,16 +559,33 @@ button:hover {
 
 @media only screen and (min-width: 1250px) {
   header {
-    padding: 2em 2em 2em 10em;
+    font-weight: bold;
+  }
+  header .logo {
+    margin-bottom: 8em;
+    font-size: 1.3em;
+  }
+  header ul a {
+    padding: unset;
+    color: black;
   }
   .social-header {
-    padding: 2em 10em 2em 10em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .social-header ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   section {
     padding: 10em 10em 4em 10em;
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+    height: 100vh;
   }
   .Salute {
     padding-left: 10em;
@@ -448,20 +608,11 @@ button:hover {
 }
 
 @media only screen and (min-width: 1550px) {
-  header {
-    padding: 2em 2em 2em 20em;
-  }
-  .social-header {
-    padding: 2em 20em 2em 0em;
-  }
-  section {
-    padding: 6em 20em 4em 20em;
+  .hero {
+    background: white;
   }
   .hero .content {
-    padding: 9em 20em 6em 20em;
-  }
-  .hero-design {
-    margin-top: unset;
+    color: black;
   }
   .ContactForm input,
   .ContactForm textarea {

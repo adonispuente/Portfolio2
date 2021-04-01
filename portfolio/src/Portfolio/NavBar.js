@@ -5,6 +5,15 @@ import './main.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
+import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
+
+
+
+
+
+
 
 
 
@@ -20,16 +29,27 @@ return(
             <div class ='nav'>
                 <ul>
                     <li>
-                        <a href='#MyWork'>My Work</a>
+
+                        <a href='#MyWork' >
+                        <FontAwesomeIcon icon={faBriefcase}  size="2x"color="white" id='icon'>Projects</FontAwesomeIcon>
+                        </a>
                     </li>
                     <li>
-                        <a href='#MySkills'>My Skills</a>
+
+                        <a href='#MySkills' >
+                        <FontAwesomeIcon icon={faCode}  size="2x"color="white" id='icon' >GitHub</FontAwesomeIcon>
+
+                        </a>
                     </li>
                     {/* <li>
                         <a href='#'>About Me</a>
                     </li> */}
                     <li>
-                        <a href='#ContactMe'> Contact Me</a>
+
+                        <a href='#ContactMe' > 
+                        <FontAwesomeIcon  icon={faPaperPlane}  size="2x"color="white" id='icon' >GitHub</FontAwesomeIcon>
+
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -40,12 +60,12 @@ return(
                     <ul>
                         <li>
                             <a href="https://github.com/adonispuente" target="_blank"> 
-                            <FontAwesomeIcon icon={faGithub}  size="2x"color="black"  >GitHub</FontAwesomeIcon>
+                            <FontAwesomeIcon icon={faGithub}  size="2x"color="white" id='icon' >GitHub</FontAwesomeIcon>
                             </a>
                         </li>
                         <li>
                             <a href='https://www.linkedin.com/in/adonis-puente/' target="_blank" >
-                              <FontAwesomeIcon icon={faLinkedin} size="2x" color='black' > Linkedin</FontAwesomeIcon> 
+                              <FontAwesomeIcon icon={faLinkedin} size="2x" color='white' id='icon' > Linkedin</FontAwesomeIcon> 
 
                             </a>
                         </li>
