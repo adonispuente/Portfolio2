@@ -7,9 +7,7 @@ import Featured from './Portfolio/Featured'
 import Skills from './Portfolio/Skills'
 import Projects from './Portfolio/Projects'
 import Contact from './Portfolio/Contact'
-import AboutMe from './Portfolio/AboutMe'
 import RevampIntro from './Portfolio/RevampIntro'
-import MotionBG from './Portfolio/MotionBG'
 
 function App() {
 
@@ -22,12 +20,13 @@ function App() {
       </div>
       
       <Intro/>
-      <Featured/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <AboutMe/>
-      {/* <MotionBG/> */}
+       <Skills/>
+       <Featured/> 
+       <hr/>
+     
+       <Projects/>
+      <Contact/>  
+      
       
 
     </div>

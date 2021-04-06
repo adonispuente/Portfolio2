@@ -113,22 +113,7 @@ export default function Contact(){
         
             <div id='ContactMe' class='ContactForm'>
                         
-                <svg class='hero-design-bottom' width="662" height="624" viewBox="0 0 662 624">
-                <g id="blockdesign" data-name="Group 2" transform="translate(-1014 -273)">
-                    <rect class='square-anim'id="Rectangle_4" data-name="Rectangle 4" width="172" height="156" rx="20" transform="translate(1343 273)" fill="#6e00ff"/>
-                    <rect class='square-anim'id="Rectangle_5" data-name="Rectangle 5" width="168" height="156" rx="20" transform="translate(1182 429)" fill="#fff"/>
-                    <ellipse class='square-anim'id="Ellipse_2" data-name="Ellipse 2" cx="79" cy="78" rx="79" ry="78" transform="translate(1350 429)" fill="#ff64cb"/>
-                    <rect class='square-anim'id="Rectangle_8" data-name="Rectangle 8" width="168" height="156" rx="20" transform="translate(1182 741)" fill="#fff"/>
-                    <path class='square-anim'id="Path_4" data-name="Path 4" d="M20,0H148a20,20,0,0,1,20,20V136a20,20,0,0,1-20,20H20A20,20,0,0,1,0,136V20A20,20,0,0,1,20,0Z" transform="translate(1014 585)" fill="#8a3bf2"/>
-                    <path class='square-anim'id="Path_2" data-name="Path 2" d="M20,0H148a20,20,0,0,1,20,20V136a20,20,0,0,1-20,20H20A20,20,0,0,1,0,136V20A20,20,0,0,1,20,0Z" transform="translate(1508 429)" fill="#6e00ff" opacity="0.402"/>
-                    <path class='square-anim'id="Path_3" data-name="Path 3" d="M79,0c43.63,0,79,34.922,79,78s-35.37,78-79,78S0,121.078,0,78,35.37,0,79,0Z" transform="translate(1182 585)" fill="#00f7ff"/>
-                    <rect class='square-anim'id="Rectangle_10" data-name="Rectangle 10" width="168" height="156" rx="20" transform="translate(1340 585)" fill="#6e00ff"/>
-                </g>
-            </svg>
-                
-            
 
-                
                             <form onSubmit={Submit}>
                                 <h1 class='contactH1'>Like what you see? <span> Hire me!</span></h1>
                                 {submit === true? (

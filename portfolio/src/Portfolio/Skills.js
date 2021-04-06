@@ -1,6 +1,20 @@
-import brain from '../Pictures/brain.svg'
-import frontend from '../Pictures/frontend.svg'
-import backend from '../Pictures/backend.svg'
+import html from '../Pictures/html.png'
+import css from '../Pictures/css.png'
+import bootstrap from '../Pictures/bootstrap.png'
+import less from '../Pictures/less.png'
+import react from '../Pictures/react.png'
+import javascript from '../Pictures/javascript.png'
+import java2 from '../Pictures/java2.png'
+import postgresql from '../Pictures/postgresql.png'
+import okta2 from '../Pictures/okta2.png'
+import python from '../Pictures/python.png'
+import heroku from '../Pictures/heroku.png'
+import adobexd from '../Pictures/adobexd.svg'
+import github from '../Pictures/github.png'
+import SpringBoot from '../Pictures/Springboot.webp'
+
+
+
 import './main.css'
 
 
@@ -8,61 +22,123 @@ import './main.css'
 export default function Skills(){
     return(
         <section class='skills' id='MySkills'>
+            <div class='skills-text'>
+                <h1>My Skills</h1>
+                <p> My web developmet strengths are in CRUD applications using Spring Boot, Postgresql,
+                    and React.js.The back-end server uses Spring Boot with Spring Web MVC for REST APIs and Spring Data JPA for interacting with PostgreSQL database. 
+                </p>
+                <p>
+                    I am aware that this field constantly requires adaptation, and what works best with the project at hand.
+                    I am constantly learning new technologies and look forward to learning new Stacks or languages!
+                </p>
+            </div>
+
             <div class='skills-container'>
-                <ul>
-                    {/* <li class='transition2'>
-                        <div class='icon-container one'>
-                            <img src={brain}></img>
+                <div class ='skillsCard'>
+                        <div class = 'skills-title'>
+                            <h2>Frontend</h2>
                         </div>
-                            <p class='skill-title'>Learning </p>
-                            <ul class='listed'>
-                                <li>Adobe Xd</li>
-                                <li>Node.js</li>
-                                <li>PhotoShop</li>
-                            </ul>
+                        <hr/>
+                       
+                        <div class='skills-content'>
+                        <div class='skill-item'>
+                                    <img src={react} alt='react logo'/>
+                                    <h4>REACT</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={javascript} alt='Javascript logo' />
+                                    <h4>JAVASCRIPT</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={html} alt='html logo'/>
+                                    <h4>HTML5</h4>
+                            </div>
                             
-                        
-                    </li> */}
-                    <li class='transition2'>
-                        <div class='icon-container two'>
-                            <img src={frontend}></img>
+                            <div class='skill-item'>
+                                    <img src={css} alt='CSS logo'/>
+                                    <h4>CSS3</h4>
+                            </div>
+                            
+                            <div class='skill-item'>
+                                    <img src={bootstrap} alt='Bootstrap logo'/>
+                                    <h4>BOOTSTRAP</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={less} alt='LESS logo'/>
+                                    <h4>LESS</h4>
+                            </div>
+
                         </div>
-                            <p class='skill-title'>Frontend Development</p>
-                            <ul class='listed'>
-                                <li>React | JavaScript</li>
-                                <li>ContextAPI | Redux </li>
-                                <li>HTML/CSS | SCSS | LESS</li>
-                                <li>BootStrap | MaterialUi</li>
-                                <li>Rest API's</li>
-                            </ul>
-                            {/* <p class='featured-desc skill-desc'> React | Redux | JavaScript | ContextAPI </p>
-                            <p class='featured-desc skill-desc'> HTML | CSS | SASS | LESS</p>
-                            <p class='featured-desc skill-desc'> BootStrap | MaterialUi | REST API </p> */}
+
+  
+
+                </div>
+                
 
 
 
-                        
-                    </li>
-                    <li class='transition2'>
-                        <div class='icon-container three'>
-                            <img src={backend}></img>
+
+
+
+                <div class ='skillsCard'>
+                        <div class = 'skills-title'>
+                            <h2>Backend</h2>
                         </div>
-                            <p class='skill-title'>Backend Development</p>
-                            <ul class='listed'>
-                                <li>Postgresql | Jackson</li>
-                                <li>Tomcat | Spring</li>
-                                <li>Postman</li>
-                                <li>Okta</li>
-                                <li>Java</li>
-                                
-                            </ul>
-                            {/* <p class='featured-desc skill-desc'> POSTGRESQL | POSTMAN | JACKSON </p>
-                            <p class='featured-desc skill-desc'> SPRING | OKTA | JAVA </p> */}
+                        <hr/>
+                       
+                        <div class='skills-content'>
+                        <div class='skill-item'>
+                                    <img src={java2} alt='Java logo'/>
+                                    <h4>JAVA</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={postgresql} alt='Postgresql Logo'/>
+                                    <h4>POSTGRESQL</h4>
+                            </div>
+                            
+                            
+                            <div class='skill-item'>
+                                    <img src={okta2} alt='okta Logo'/>
+                                    <h4>OKTA</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={SpringBoot}/>
+                                    <h4>Spring Boot</h4>
+                            </div>
+                           
 
-                        
-                    </li>
-                </ul>
+                        </div>
+                </div>
 
+                <div class ='skillsCard'>
+                        <div class = 'skills-title'>
+                            <h2>Other</h2>
+                        </div>
+                        <hr/>
+                       
+                        <div class='skills-content'>
+                        <div class='skill-item'>
+                                    <img src={adobexd}/>
+                                    <h4>ADOBE XD</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={heroku}/>
+                                    <h4>HEROKU</h4>
+                            </div>
+                            <div class='skill-item'>
+                                    <img src={github}/>
+                                    <h4>GITHUB</h4>
+                            </div>
+                            
+                            <div class='skill-item'>
+                                    <img src={python}/>
+                                    <h4>PYTHON</h4>
+                            </div>
+                           
+
+                        </div>
+                </div>
+    
             </div>
 
         </section>

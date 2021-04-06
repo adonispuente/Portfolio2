@@ -6,8 +6,12 @@ import './main.css'
 
 export default function Projects(){
     return(
-        <section class='portfolio' id='MyWork'>
+        <section class='portfolio' >
+            
                 <div class ='portfolio-container transition3'>
+                    <div>
+
+                    </div>
                     <div class='portfolio-left'>
                         <div class='inner'>
                             <p class ='subtitle'>Citrics Backend</p>
@@ -22,6 +26,9 @@ export default function Projects(){
                 </div>
 
                 <div class ='portfolio-container transition3'>
+                <div>
+                        
+                </div>
                     <div class='portfolio-left'>
                         <div class='inner'>
                             <p class ='subtitle'>Weight Journey App</p>
@@ -38,6 +45,9 @@ export default function Projects(){
 
 
                 <div class ='portfolio-container transition3'>
+                <div>
+                        
+                </div>
                     <div class='portfolio-left'>
                         <div class='inner'>
                             <p class ='subtitle'>Water My Plants Backend </p>
