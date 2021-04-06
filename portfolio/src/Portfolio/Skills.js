@@ -34,6 +34,8 @@ export default function Skills(){
             </div>
 
             <div class='skills-container'>
+
+            <h1 class='mobile'>Skills</h1>
                 <div class ='skillsCard'>
                         <div class = 'skills-title'>
                             <h2>Frontend</h2>
@@ -78,7 +80,7 @@ export default function Skills(){
 
 
 
-
+               
 
                 <div class ='skillsCard'>
                         <div class = 'skills-title'>

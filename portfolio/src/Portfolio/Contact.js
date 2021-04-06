@@ -134,7 +134,7 @@ export default function Contact(){
                                             name='name'
                                             onChange={Changing}
                                             value={form.name}
-                                            placeholder='NAME'
+                                            placeholder='Name'
                                             />
                                             {errors.name.length > 0 ? (
                                                 <p className="error">{errors.name}</p>
@@ -158,7 +158,7 @@ export default function Contact(){
                                             
                                             name="message"
                                             onChange={Changing}
-                                            placeholder="MESSAGE "
+                                            placeholder="Message "
                                             value={form.message}
                                             style={{height: '200px'}}
                                         />

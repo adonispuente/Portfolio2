@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", "arial";
   overflow-x: hidden;
   background: #fff;
+  width: 100%;
 }
 html {
   scroll-behavior: smooth;
@@ -366,6 +367,10 @@ section {
   }
 }
 
+.mobile {
+  display: none;
+}
+
 // SKILLS SECTION CLOSE --------------------
 
 //Featured section ---------------------
@@ -511,6 +516,56 @@ textarea {
     .skill-item {
       margin: 3px 12px;
     }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .nav-container {
+    display: none;
+  }
+
+  .overlay {
+    left: 9%;
+    font-size: 0.4em;
+  }
+
+  button {
+    margin: 5em 2em;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+  }
+
+  .skills {
+    margin: 10px 0;
+    height: unset;
+
+    .skills-text {
+      display: none;
+    }
+  }
+  .skills-container {
+    max-width: unset;
+    margin: 0 auto;
+  }
+
+  .mobile {
+    display: block;
+    color: #5da9e9;
+    font-size: 2em;
+  }
+
+  .featured {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .portfolio-container {
+    display: unset;
+    grid-template-columns: unset;
   }
 }
 
