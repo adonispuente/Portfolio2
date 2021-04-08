@@ -236,6 +236,10 @@ header ul a {
   }
 }
 
+.motion {
+  display: none;
+}
+
 .hero {
   background: #fff;
   color: white;
@@ -291,6 +295,11 @@ section {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 10em;
+}
+
+.scroll {
+  width: 30px;
+  margin-top: 2em;
 }
 
 .featured {
@@ -564,7 +573,6 @@ textarea {
     display: none;
   }
   .overlay {
-    left: 9%;
     font-size: 0.4em;
   }
   button {
@@ -593,7 +601,7 @@ textarea {
   }
   .mobile {
     display: block;
-    color: #5da9e9;
+    color: #000;
     font-size: 2em;
   }
   .featured {
@@ -609,6 +617,43 @@ textarea {
     display: unset;
     -ms-grid-columns: unset;
         grid-template-columns: unset;
+  }
+  .motion {
+    display: block;
+    text-align-last: center;
+    margin-top: -12em;
+    position: relative;
+    opacity: 0.75;
+  }
+}
+
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes circleAnim {
+  from {
+    -webkit-transform: translate(286px, 581px);
+            transform: translate(286px, 581px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(286px, 630px);
+            transform: translate(286px, 630px);
+    z-index: 5;
+  }
+}
+
+@keyframes circleAnim {
+  from {
+    -webkit-transform: translate(286px, 581px);
+            transform: translate(286px, 581px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(286px, 630px);
+            transform: translate(286px, 630px);
+    z-index: 5;
   }
 }
 /*# sourceMappingURL=main.css.map */

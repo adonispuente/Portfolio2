@@ -22,7 +22,9 @@ import './main.css'
 export default function Skills(){
     return(
         <section class='skills' id='MySkills'>
+                
             <div class='skills-text'>
+            
                 <h1>My Skills</h1>
                 <p> My web developmet strengths are in CRUD applications using Spring Boot, Postgresql,
                     and React.js.The back-end server uses Spring Boot with Spring Web MVC for REST APIs and Spring Data JPA for interacting with PostgreSQL database. 

@@ -184,6 +184,10 @@ header {
   }
 }
 
+.motion {
+  display: none;
+}
+
 // NEW REVAMP CSS close ---------------------------------------------------------
 
 //------- About Intro ---------
@@ -232,10 +236,10 @@ section {
     padding-top: 10em;
   }
 }
-// .scroll {
-//   width: 30px;
-//   margin-top: 2em;
-// }
+.scroll {
+  width: 30px;
+  margin-top: 2em;
+}
 
 // .scroll {
 //   width: 35px;
@@ -525,7 +529,7 @@ textarea {
   }
 
   .overlay {
-    left: 9%;
+    // left: 9%;
     font-size: 0.4em;
   }
 
@@ -554,7 +558,7 @@ textarea {
 
   .mobile {
     display: block;
-    color: #5da9e9;
+    color: #000;
     font-size: 2em;
   }
 
@@ -567,18 +571,27 @@ textarea {
     display: unset;
     grid-template-columns: unset;
   }
+
+  .motion {
+    display: block;
+    text-align-last: center;
+    margin-top: -12em;
+    position: relative;
+    opacity: 0.75;
+  }
 }
 
-// .circle {
-//   animation: circleAnim 1s infinite alternate-reverse;
-// }
+.circle {
+  animation: circleAnim 1s infinite alternate-reverse;
+}
 
-// @keyframes circleAnim {
-//   from {
-//     transform: translate(286px, 581px);
-//     z-index: 5;
-//   }
-//   to {
-//     transform: translate(286px, 630px);
-//     z-index: 5;
-//   }
+@keyframes circleAnim {
+  from {
+    transform: translate(286px, 581px);
+    z-index: 5;
+  }
+  to {
+    transform: translate(286px, 630px);
+    z-index: 5;
+  }
+}

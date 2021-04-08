@@ -26,10 +26,11 @@ export default function Contact(){
         setSubmit(true);
         setForm(initialForm)
         const templateId = 'template_9mwiejp';
-        // sendFeedback(templateId,{message_html:form.Message})
+        // sendF,DKLAZXeedback(templateId,{message_html:form.Message})
         emailjs.send('service_o4pr1cj',templateId, form , 'user_oHx1PQWUGY4N5JixTPoth')
         .then((response) => {
        console.log('SUCCESS!', response.status, response.text);
+       console.log(form)
         }, (err) => {
        console.log('FAILED...', err);
                 });

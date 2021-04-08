@@ -1,6 +1,4 @@
 
-import styled from 'styled-components'
-// import './NavBar.css'
 import './main.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
