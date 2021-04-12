@@ -85,7 +85,7 @@ export default function Intro(){
                 <p  style={{color:'black'}}>
                 Im a generally positive person. After finishing a Bachelors in Psychology at FIU, I realized how much fun I had coding and went straight to
                  Lambda. Some things about me as a person are that I LOOK like I play basketball (6'3) so I always get picked first, I love golf, I'm an
-                  extrovert but I love calm settings like a jazz bar, and I really like barbequing. Im currently getting into the world of smoking meat.
+                  extrovert but I love calm settings like a jazz bar, and I really like barbecuing. Im currently getting into the world of smoking meat.
                 </p>
             </div>
 

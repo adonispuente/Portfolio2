@@ -9,8 +9,8 @@ export default function RevampIntro(){
             <MotionBG/>
             </div>
             <div class ='box overlay '>
-                    <h1><span class="text_1">Hey there, im Adonis!</span>
-                        <span class="text_2">Im a Software Engineer!</span>
+                    <h1><span class="text_1">Hey there, I'm Adonis!</span>
+                        <span class="text_2">I'm a Software Engineer!</span>
                     </h1>
 
                     
