@@ -1,10 +1,10 @@
-body {
-  height: 100vh;
-  margin: 0;
-  font-family: "Poppins", "arial";
-  overflow-x: hidden;
-  background: #fff;
+body,
+html {
   width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
 html {
@@ -621,7 +621,7 @@ textarea {
   .motion {
     display: block;
     text-align: center;
-    margin-top: -12em;
+    margin-top: -14em;
     position: relative;
     opacity: 0.75;
   }
@@ -653,6 +653,36 @@ textarea {
   to {
     -webkit-transform: translate(286px, 630px);
             transform: translate(286px, 630px);
+    z-index: 5;
+  }
+}
+
+.arrow {
+  animation: arrowAnim 1s infinite alternate-reverse;
+}
+
+@-webkit-keyframes arrowAnim {
+  from {
+    -webkit-transform: translate(5.436px, 9.082px);
+            transform: translate(5.436px, 9.082px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(5.436px, 50px);
+            transform: translate(5.436px, 50px);
+    z-index: 5;
+  }
+}
+
+@keyframes arrowAnim {
+  from {
+    -webkit-transform: translate(5.436px, 9.082px);
+            transform: translate(5.436px, 9.082px);
+    z-index: 5;
+  }
+  to {
+    -webkit-transform: translate(5.436px, 50px);
+            transform: translate(5.436px, 50px);
     z-index: 5;
   }
 }
