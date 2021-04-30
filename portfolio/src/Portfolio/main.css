@@ -523,6 +523,9 @@ textarea {
   .skills-content .skill-item {
     margin: 3px 19px;
   }
+  .overlay {
+    left: 25%;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -530,7 +533,7 @@ textarea {
     padding-top: 5em;
   }
   .overlay {
-    left: 20%;
+    left: 18%;
   }
   .skills-container h4 {
     font-size: 0.4em;
@@ -577,7 +580,7 @@ textarea {
     font-size: 0.4em;
   }
   button {
-    margin: 5em 2em;
+    margin: 5em 4em;
   }
   .hero {
     display: -webkit-box;
@@ -625,6 +628,12 @@ textarea {
     margin-top: -17em;
     position: relative;
     opacity: 0.75;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  button {
+    margin: 5em 3em;
   }
 }
 
