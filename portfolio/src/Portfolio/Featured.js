@@ -14,6 +14,7 @@ return(
 
                 <p class='featured=desc'>A game implementing the rules of Conways Game of Life! It is built using
                 React & JavaScript!
+                (Desktop)
                 </p>
             </div>
         </div>
