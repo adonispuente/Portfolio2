@@ -110,6 +110,18 @@ header ul a {
   padding: 0 1em;
 }
 
+.bubble .icon_title {
+  display: none;
+}
+
+.bubble:hover .icon_title {
+  display: initial;
+}
+
+.bubble:hover .icon {
+  display: none;
+}
+
 .Wrap {
   position: relative;
   height: 100vh;
