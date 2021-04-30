@@ -102,6 +102,17 @@ header {
     }
   }
 }
+
+.bubble .icon_title {
+  display: none;
+}
+.bubble:hover .icon_title {
+  display: initial;
+}
+.bubble:hover .icon {
+  display: none;
+}
+
 //----NavBar -----------------
 
 // NEW REVAMP CSS --------------------------------------------------------
