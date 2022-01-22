@@ -2,7 +2,7 @@
 import './main.css'
 import {gsap,ScrollTrigger,Power4,Back} from "gsap/all";
 import { useRef, useEffect } from "react";
-import Adonis from '../Pictures/signature.jpg'
+import Adonis from '../Pictures/blacktransparentlogo.png'
 
 export default function Intro(){
 
@@ -70,10 +70,24 @@ export default function Intro(){
 
     return(
         <div class='hero' id='AboutMe'>
-            <div class='content'>
+            {/* <div class='content'> */}
                     {/* <h1 class='stagger1' >About ol' Adonis</h1> */}
-                    <img class='stagger1' src={Adonis}/>
-            </div>
+                    {/* <img class='stagger1' src={Adonis}/>
+            </div> */}
+            	<div class="tilt-box-wrap">
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<span class="t_over"></span>
+		<div class="tilt-box">
+         <img class='stagger1' src={Adonis}/>
+		</div>
+	</div>
             <div>
                 <p style={{color:'black'}}>
                 I am a graduate of the Full Stack Development program at the Lambda School. In combining a rigorous academic experience with professional roles
@@ -88,8 +102,10 @@ export default function Intro(){
                   extrovert but I love calm settings like a jazz bar, and I really like barbecuing. Im currently getting into the world of smoking meat.
                 </p>
             </div>
-
-           
         </div>
+        
+
+
+
     )
 }

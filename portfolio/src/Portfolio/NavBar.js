@@ -8,7 +8,7 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 import { faFile } from '@fortawesome/free-solid-svg-icons'
 import { faStreetView } from '@fortawesome/free-solid-svg-icons'
 
-import PDF from '../Pictures/PDF.pdf'
+import PDF from '../Pictures/Resume.pdf'
 
 
 
