@@ -1,4 +1,3 @@
-import './Featured.css'
 import GOF from '../Pictures/GOF.png'
 
 export default function Featured(){
