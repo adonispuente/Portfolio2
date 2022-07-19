@@ -59,6 +59,7 @@ export default function Contact() {
     formSchema.isValid(form).then((valid) => {
       setButtonDisabled(!valid);
     });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [form]);
 
   const validateChange = (e) => {
@@ -96,7 +97,7 @@ export default function Contact() {
     <div id="ContactMe" class="ContactForm">
       <form onSubmit={Submit}>
         <h1 class="contactH1">
-          Like what you see? <span> Hire me!</span>
+          Want to get in touch? <span> Email me!</span>
         </h1>
         {submit === true ? (
           <div>

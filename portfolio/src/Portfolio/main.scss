@@ -94,11 +94,11 @@ header {
   ul {
     display: flex;
     flex-direction: column;
-    height: 30vh;
+    height: 70vh;
     justify-content: space-between;
     a {
       display: block;
-      padding: 0 1em;
+      padding: 0 1em; 
     }
   }
 }
@@ -503,7 +503,7 @@ textarea {
   }
 
   .overlay {
-    left: 18%;
+    left: 33%;
   }
 
   .skills-container {
@@ -547,7 +547,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1000px) {
   .nav-container {
     display: none;
   }

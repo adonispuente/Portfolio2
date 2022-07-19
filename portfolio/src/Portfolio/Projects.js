@@ -1,4 +1,4 @@
-import GOF from '../Pictures/GOF.png'
+/* eslint-disable react/jsx-no-target-blank */
 import labtop2 from '../Pictures/labtop2.png'
 import WJ from '../Pictures/WJ.png'
 import './main.css'

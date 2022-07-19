@@ -1,10 +1,10 @@
+/* eslint-disable react/jsx-no-target-blank */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import "./main.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { faCode } from "@fortawesome/free-solid-svg-icons";
-import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faStreetView } from "@fortawesome/free-solid-svg-icons";
 
@@ -26,42 +26,10 @@ export default function Navbar() {
                   color="white"
                   id="icon"
                 >
-                  {" "}
-                  About Me
                 </FontAwesomeIcon>
-                <span class="icon_title">About Me</span>
+                <span class="icon_title">About</span>
               </a>
             </li>
-            <li>
-              <a href="#MySkills" class="bubble">
-                <FontAwesomeIcon
-                  icon={faCode}
-                  size="2x"
-                  color="white"
-                  id="icon"
-                >
-                  GitHub
-                </FontAwesomeIcon>
-                <span class="icon_title">Skills</span>
-              </a>
-            </li>
-            <li>
-              <a href="#MyWork" class="bubble">
-                <FontAwesomeIcon
-                  icon={faBriefcase}
-                  size="2x"
-                  color="white"
-                  id="icon"
-                >
-                  Projects
-                </FontAwesomeIcon>
-                <span class="icon_title">Projects</span>
-              </a>
-            </li>
-
-            {/* <li>
-                        <a href='#'>About Me</a>
-                    </li> */}
             <li>
               <a href="#ContactMe" class="bubble">
                 <FontAwesomeIcon
@@ -73,12 +41,7 @@ export default function Navbar() {
                 <span class="icon_title">Contact</span>
               </a>
             </li>
-          </ul>
-        </div>
-      </header>
-      <div class="social-header">
-        <ul>
-          <li>
+            <li>
             <a
               href="https://github.com/adonispuente"
               target="_blank"
@@ -121,8 +84,14 @@ export default function Navbar() {
               <span class="icon_title">Resume</span>
             </a>
           </li>
-        </ul>
-      </div>
-    </div>
+          </ul>
+        </div>
+      </header>
+      {/* <div class="social-header"> 
+        <ul>
+          
+        </ul> 
+      </div> */}
+     </div>
   );
 }

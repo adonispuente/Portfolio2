@@ -1,9 +1,9 @@
 import NavBar from "./Portfolio/NavBar";
 import "./App.css";
 import Intro from "./Portfolio/Intro";
-import Featured from "./Portfolio/Featured";
+// import Featured from "./Portfolio/Featured";
 import Skills from "./Portfolio/Skills";
-import Projects from "./Portfolio/Projects";
+// import Projects from "./Portfolio/Projects";
 import Contact from "./Portfolio/Contact";
 import RevampIntro from "./Portfolio/RevampIntro";
 
@@ -46,10 +46,10 @@ function App() {
       <Intro />
 
       <Skills />
-      <Featured />
+      {/* <Featured />  */}
       <hr />
 
-      <Projects />
+      {/* <Projects /> */}
       <Contact />
      
     </div>
@@ -58,6 +58,7 @@ function App() {
 
 export default App;
 
+// eslint-disable-next-line no-lone-blocks
 {
   /* <svg class='scroll' width="40" height="77" viewBox="0 0 53 110">
                             <g id="scroll" transform="translate(-274 -567)">

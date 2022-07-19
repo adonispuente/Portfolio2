@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import html from '../Pictures/html.png'
 import css from '../Pictures/css.png'
 import bootstrap from '../Pictures/bootstrap.png'

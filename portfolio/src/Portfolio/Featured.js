@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import GOF from '../Pictures/GOF.png'
 
 export default function Featured(){

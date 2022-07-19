@@ -1,9 +1,7 @@
 import * as THREE from 'three'
-import ReactDOM from 'react-dom'
 import React, { useRef, useMemo, useState } from 'react'
 import { Canvas, useFrame } from 'react-three-fiber'
 import { EffectComposer, SSAO } from 'react-postprocessing'
-// import './styles.css'
 
 
 function Swarm({ count, mouse }) {

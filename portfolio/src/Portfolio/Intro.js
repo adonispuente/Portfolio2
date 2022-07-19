@@ -1,7 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 // import './Intro.css'
 import './main.css'
 import {gsap,ScrollTrigger,Power4,Back} from "gsap/all";
-import { useRef, useEffect } from "react";
+import { useEffect } from "react";
 import Adonis from '../Pictures/blacktransparentlogo.png'
 
 export default function Intro(){
@@ -64,6 +65,7 @@ export default function Intro(){
         stagger: .6
     })
 
+ // eslint-disable-next-line react-hooks/exhaustive-deps
  },[])
 
 
@@ -90,16 +92,14 @@ export default function Intro(){
 	</div>
             <div>
                 <p style={{color:'black'}}>
-                I am a graduate of the Full Stack Development program at the Lambda School. In combining a rigorous academic experience with professional roles
+                I am a graduate of the Full Stack Development program at the Lambda School , now know as BloomTech. In combining a rigorous academic experience with professional roles
                  in the public and private sector, I have exemplified my keen ability to troubleshoot difficult information technology problems, collaborate on
-                  teams, and utilize my business development skills at a professional level. My main language is Javascript and I work primarily in React.js.
-                   I also assumed leadership responsibilities during my time at Florida International University. These allowed me to participate in budget
-                    coordination, fundraising efforts, and event management.
+                  teams, and utilize my business development skills at a professional level. I work primarily with Javascript.
                 </p>
                 <p  style={{color:'black'}}>
-                Im a generally positive person. After finishing a Bachelors in Psychology at FIU, I realized how much fun I had coding and went straight to
-                 Lambda. Some things about me as a person are that I LOOK like I play basketball (6'3) so I always get picked first, I love golf, I'm an
-                  extrovert but I love calm settings like a jazz bar, and I really like barbecuing. Im currently getting into the world of smoking meat.
+                    I graudated from FIU with a Bachelors in Psychology. I realized how much fun I had coding and went straight to
+                 a coding bootcamp. From there I got my first job at a scooter company , Bolt Mobility, where I built the Admin Dashboard the company used to manage its fleets of scooters, manipulate geofences, and manage its customers. Here I also wrote some PHP backend, wrote extensive documentation , and reviewed code snippets.
+                 Now I work at Red Hat where I work on the Interact Team managing various RHEL (Red Hat Enterprise Linux) applications on the front-end side of things!
                 </p>
             </div>
         </div>
